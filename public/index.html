@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Speaking skills, Listening skills, Data Searching skills, online camp, exercises, interactive games, peer-to-peer assistance, chat session, debate, Chat GPT API, feedback, improvement">
+        <link rel="stylesheet" href="./css/form.css">
+        <title>SLC +</title>
+    </head>
+
+    <body>
+        <div class="slide_registration code__slide active">
+            <div class="enter__block">
+                <div class="block__decorations">
+                    <span class="decorations__command">>> sudo upgrade speaking-skills</span>
+                    <span class="decorations__command">>> sudo get new-resources</span>
+                    <span class="decorations__command">>> sudo add new-friends</span>
+                    <span class="decorations__command">>> sudo install chat-game</span>
+                </div>
+                <div class="block__code">
+                    <input type="text" id="inputCode" class="game-style" placeholder="ENTER CODE"/>
+                    <button class="game-style" id="submitSessionCode">
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <p>Start</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="slide_registration name__slide">
+            <input type="text" id="inputUserName" class="game-style" placeholder="WRITE YOUR NAME..."/>
+            <div class="registration__hint">
+                <label>PRESS ENTER</label>
+                <img id="submitUserName" src="./img/enter.svg" alt="Press Enter" />
+            </div>
+        </div>
+        <div class="slide_registration chat__slide">
+            <div id="chatArea"></div>
+            <input type="text" id="sendUserMessage" placeholder="Text message..."/>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="./js/connection.js"></script>
+        <script src="./js/chat.js"></script>
+    </body>
+
+</html>
