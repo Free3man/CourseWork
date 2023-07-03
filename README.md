@@ -1,4 +1,3 @@
-# SLC
-SLC aims to help people improve their Speaking, Listening, and Data Searching skills to achieve a better work/study/project experience within the community. This online camp flows through exercises, interactive games, and peer-to-peer assistance. 
+# Course work
 
-The source code is currently on the "Developing" branch
+The course project aims to provide an efficient solution for students to find potential coworking partners within their community. In large communities, it is often difficult to physically meet and get to know people for certain purposes, which is why various social media platforms have become the preferred method of finding new connections.
